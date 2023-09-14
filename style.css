@@ -7,65 +7,67 @@ body {
 }
 
 header {
-    padding: 35px; 
+    padding: 130px; 
     background-color: #1f2937;
 }
 
 .header-logo {
+    display: flex;
+    justify-content: flex-start;
     color: #f9faf8;
-    margin-left: 100px;
-    margin-top: -40px;
-    font-size: 9px;
+    margin-top: -155px;
+    font-size: 13px;
 }
+
 
 .List {
     margin-left: 550px;
-    margin-top: -53px;
+    margin-top: -90px;
     color: #f9faf8;
     display: flex;
     flex-direction: row;
-    font-size: 14px;
+    font-size: 20px;
 }
 
 .List-2 {
-    margin-left: 660px;
-    margin-top: -43px;
+    margin-left: 700px;
+    margin-top: -63px;
     color: #f9faf8;
     display: flex;
     flex-direction: row;
-    font-size: 14px;
+    font-size: 20px;
 }
 
 .List-3 {
-    margin-left: 770px;
-    margin-top: -43px;
+    margin-left: 885px;
+    margin-top: -63px;
     color: #f9faf8;
     display: flex;
     flex-direction: row;
-    font-size: 14px;
+    font-size: 20px;
 }
 
 .Website {
     color: #f9faf8;
-    margin-left: 100px;
-    margin-top: 80px;
-    font-size: 40px;
+    margin-top: 110px;
+    font-size: 55px;
 }
 
 .Website-2 {
     color: #f9faf8;
-    margin-left: 100px;
+    margin-left: 4px;
     margin-top: -40px;
 }
 
 .Button-1 {
-    margin-left: 90px;
     color: #f9faf8;
-    width: 110px;
-    height: 35px;
+    width: 150px;
+    height: 40px;
     border-radius: 10px;
     background-color:  #3882F6;
     border-color: #3882F6;
+    font-size: 20px;
+    
 }
 
 
@@ -74,77 +76,133 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    font-size: 50px;
 }
 
 .Button-2 {
-    margin-left: 75px;
-    width: 150px;
-    height: 150px;
+    margin-left: 150px;
+    width: 175px;
+    height: 175px;
     border-radius: 10px;
-    background-color: white;
     border-color: #3882F6;
-    border-width: 3px;
+    border-width: 5px;
+    background-color: white;
+}
+
+.Text-1 {
+    background-color: white;
+    padding: 100px;
 }
 
 .text {
-    margin-left: 75px;
+    margin-left: 78px;
+    margin-top: -110px;
 }
 
 .text2 {
-    margin-left: 310px;
-    margin-top: -80px;
+    margin-left: 410px;
+    margin-top: -37px;
 }
 
 .text3 {
-    margin-left: 540px;
-    margin-top: -75px;
+    margin-left: 730px;
+    margin-top: -37px;
 }
 
 .text4 {
-    margin-left: 768px;
-    margin-top: -75px;
+    margin-left: 1055px;
+    margin-top: -37px;
 }
 
 .Text-3 {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    font-size: 27px;
+    font-size: 37px;
     color: #1F2937;
-    margin-top: 150px;
-    padding: 100px;
+    margin-top: 200px;
+    padding: 0px;
 }
 
 .Text-4 {
     background-color: #e5e7eb;
+    padding:  1px;
+    
 }
 
 .Thor-text{
-    margin-left: 650px;
-    font-size: 20px;
+    margin-left: 850px;
+    font-size: 25px;
     color: #1F2937;
-    margin-top: -90px;
-    padding: 50px;
+    margin-top: -40px;
+    padding: 100px;
 }
 
 .Border-2 {
-    margin-left: 90px;
-    color: #f9faf8;
-    width: 800px;
-    height: 100px;
-    border-radius: 10px;
-    background-color:  #3882F6;
+    background-color: white;
+    padding: 20px;
+    color: white;
 }
 
+
+.Button-3 {
+    color: #f9faf8;
+    background-color:  #3882F6;
+    border-color: white;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-left: 850px;
+    margin-top: 30px;
+}
+
+.Text-border-3 {
+    color: #3882F6;
+    width: 1130px;
+    height: 170px;
+    border-radius: 10px;
+    background-color:  #3882F6;
+    margin-left: 145px;
+}
+
+
 .Text-border {
-    margin-left: 100px;
-    margin-top: 100px;
+    color: white;
+    font-size: 25px;
+    margin-top: -153px;
+    margin-left: 300px;
 }
 
 .Text-border-2 {
-
+    color: white;
+    margin-top: -28px;
+    margin-left: 300px;
+    font-size: 18px;
 }
 
+.Text-border-4 {
+    background-color: white;
+    padding: 20px;
+    color: white;
+    margin-top: 80px;
+}
+
+.imagen-1 {
+    object-fit: cover;
+    background-image: url(./Assets/img\ dos.png);
+    width: 400px;
+    margin-left: 700px;
+    margin-top: -400px;
+}
+
+.imagen-2 {
+    margin-left: -8px;
+    width: 170px;
+    height: 170px;
+    border-radius: 10px;
+    margin-top: -3px;
+}
 
 
 
